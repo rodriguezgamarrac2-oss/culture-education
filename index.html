@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Culture & Education, escuela presencial de formación profesional en barbería.">
+  <meta name="theme-color" content="#101010">
+
+  <title>Culture & Education | Barber Academy</title>
+
+  <!-- TIPOGRAFÍAS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- ICONOS -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- =====================================
+       ENCABEZADO
+  ====================================== -->
+
+  <header class="header" id="inicio">
+
+    <a href="#inicio" class="brand" aria-label="Culture & Education - Inicio">
+
+      <img
+        src="img/logo_culture_eucation.jpeg"
+        alt="Logotipo Culture & Education"
+        class="logo-img">
+
+    </a>
+
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      type="button"
+      aria-label="Abrir menú"
+      aria-expanded="false"
+      aria-controls="mainNav">
+
+      <i class="fa-solid fa-bars"></i>
+
+    </button>
+
+    <nav class="nav" id="mainNav" aria-label="Menú principal">
+
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#cortes">Cortes</a>
+      <a href="#fundadores">Fundadores</a>
+      <a href="#seminarios">Seminarios</a>
+
+      <a href="#contacto" class="nav-button">
+        Contáctanos ↗
+      </a>
+
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <!-- =====================================
+         PORTADA PRINCIPAL
+    ====================================== -->
+
+    <section class="hero">
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          <span></span>
+          ESCUELA PRESENCIAL DE BARBERÍA
+        </p>
+
+        <h1>
+          EL OFICIO<br>
+          SE APRENDE.<br>
+          <span>EL ESTILO</span><br>
+          SE CONSTRUYE.
+        </h1>
+
+        <p class="hero-description">
+          Formamos nuevas generaciones de barberos con técnica,
+          práctica, disciplina y pasión por el arte de la barbería.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#cortes" class="btn-light">
+            EXPLORAR CORTES
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+          <a href="#nosotros" class="hero-link">
+            CONOCE NUESTRA ESCUELA
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="hero-bottom">
+        <span>01 / CULTURE & EDUCATION</span>
+        <span>PRECISIÓN · IDENTIDAD · CULTURA</span>
+      </div>
+
+    </section>
+
+
+    <!-- =====================================
+         NOSOTROS
+    ====================================== -->
+
+    <section class="section nosotros" id="nosotros">
+
+      <p class="section-number">
+        01 — NUESTRA ESENCIA
+      </p>
+
+      <div class="two-columns">
+
+        <div>
+
+          <p class="subtitle">
+            MÁS QUE UN CORTE
+          </p>
+
+          <h2>
+            UNA CULTURA.<br>
+            <span>UNA PROFESIÓN.</span>
+          </h2>
+
+        </div>
+
+        <div class="description">
+
+          <p class="lead">
+            Culture & Education nace de la pasión por la barbería
+            y del deseo de compartir nuestros conocimientos.
+          </p>
+
+          <p>
+            Culture & Education es mucho más que un estudio de barbería; es un espacio educativo y de mentoría cuyo propósito principal es rescatar las raíces del oficio, guiar a las nuevas generaciones y evitar que la cultura de la barbería se pierda. A través de la enseñanza, la disciplina y los valores, busca transformar la vida de los jóvenes y formar profesionales apasionados que mantengan vivo este legado.
+          </p>
+
+          <a href="#fundadores" class="text-link">
+            CONOCE A NUESTROS FUNDADORES
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="values">
+
+        <article>
+          <strong>01</strong>
+          <h3>TÉCNICA</h3>
+          <p>Domina los fundamentos de la barbería.</p>
+        </article>
+
+        <article>
+          <strong>02</strong>
+          <h3>DISCIPLINA</h3>
+          <p>La práctica constante mejora tus habilidades.</p>
+        </article>
+
+        <article>
+          <strong>03</strong>
+          <h3>IDENTIDAD</h3>
+          <p>Desarrolla tu propio estilo profesional.</p>
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================
+         CATÁLOGO DE CORTES
+         GOOGLE SHEETS
+    ====================================== -->
+
+    <section class="section catalog-section" id="cortes">
+
+      <div class="section-topline">
+
+        <p class="section-number">
+          02 — ESTILOS Y TÉCNICAS
+        </p>
+
+        <span>CATÁLOGO / 01</span>
+
+      </div>
+
+      <div class="section-heading">
+
+        <div>
+
+          <p class="subtitle">
+            CATÁLOGO DE CORTES
+          </p>
+
+          <h2>
+            ENCUENTRA TU<br>
+            <span>PRÓXIMO ESTILO.</span>
+          </h2>
+
+        </div>
+
+        <p class="description">
+          Explora los estilos publicados por la academia.
+          Cada tarjeta se administra desde la pestaña
+          <strong>Cortes</strong> de Google Sheets.
+        </p>
+
+      </div>
+
+      <div class="cards-grid" id="cutsGrid" aria-live="polite">
+
+        <p class="catalog-status">
+          Cargando cortes...
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================
+         FRASE INSTITUCIONAL
+    ====================================== -->
+
+    <section class="quote-section">
+
+      <p>NO FORMAMOS SOLO BARBEROS.</p>
+
+      <h2>
+        FORMAMOS PROFESIONALES<br>
+        <span>CON IDENTIDAD.</span>
+      </h2>
+
+    </section>
+
+
+    <!-- =====================================
+         FUNDADORES
+    ====================================== -->
+
+    <section class="section founders-section" id="fundadores">
+
+      <div class="section-topline">
+
+        <p class="section-number">
+          03 — NUESTROS FUNDADORES
+        </p>
+
+        <span>FUNDADA POR BARBEROS</span>
+
+      </div>
+
+      <div class="section-heading founders-heading">
+
+        <div>
+
+          <p class="subtitle">
+            EXPERIENCIA QUE SE COMPARTE
+          </p>
+
+          <h2>
+            EL OFICIO<br>
+            <span>SE TRANSMITE.</span>
+          </h2>
+
+        </div>
+
+        <p class="description">
+          Culture & Education fue fundada por barberos que creen
+          en compartir sus conocimientos y formar a quienes
+          quieren desarrollar su talento en esta profesión.
+        </p>
+
+      </div>
+
+      <div class="founders-grid">
+
+        <article class="founder">
+
+          <img
+            src="img/carlos.jpeg"
+            loading="lazy">
+
+          <div class="founder-info">
+ 
+            <h3>Carlos Rodriguez Gamarra</h3>
+          
+            <p>Mi pasión por la barbería nació de la necesidad de romper barreras y salir de mi entorno. Cuando los caminos tradicionales se cerraron por falta de oportunidades económicas, decidí no esperar que las cosas pasaran, sino construirlas con mis propias manos. Todo comenzó al ver el poder transformador de un corte: cómo una persona puede cambiar por completo con solo un peine y una tijera. Hoy, ese impulso se convirtió en mi profesión y en mi propósito.</p>
+
+          </div>
+
+        </article>
+
+
+        <article class="founder">
+
+          <img
+            src="img/cesar.jpeg"
+            loading="lazy">
+
+          <div class="founder-info">
+
+            <h3>Cesar Jiménez Gamarra</h3>
+
+            <p>Con 24 años y más de 12 años de experiencia en la barbería, he desarrollado una pasión por el estilo urbano, fusionando las técnicas tradicionales con las tendencias modernas. Mi visión es innovar, educar y formar nuevas generaciones de barberos.</p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================
+         SEMINARIOS
+         GOOGLE SHEETS
+    ====================================== -->
+
+    <section class="section seminars-section" id="seminarios">
+
+      <div class="section-topline">
+
+        <p class="section-number">
+          04 — APRENDE Y EVOLUCIONA
+        </p>
+
+        <span>FORMACIÓN / 02</span>
+
+      </div>
+
+      <div class="section-heading">
+
+        <div>
+
+          <p class="subtitle">
+            SEMINARIOS PRESENCIALES
+          </p>
+
+          <h2>
+            CONOCIMIENTO<br>
+            <span>QUE TRANSFORMA.</span>
+          </h2>
+
+        </div>
+
+        <div class="seminar-intro">
+
+          <p class="description">
+            Experiencias presenciales para perfeccionar técnicas,
+            descubrir tendencias y seguir creciendo en la cultura barber.
+          </p>
+
+          <p class="sheet-note">
+            <i class="fa-solid fa-rotate"></i>
+            Los seminarios se actualizan desde Google Sheets.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="seminars-grid" id="seminarsGrid" aria-live="polite">
+
+        <p class="catalog-status">
+          Cargando seminarios...
+        </p>
+
+      </div>
+
+      <div class="seminar-bottom-cta">
+
+        <div>
+
+          <span class="eyebrow-dark">
+            CULTURE & EDUCATION
+          </span>
+
+          <h3>
+            EL SIGUIENTE NIVEL<br>
+            COMIENZA CON APRENDER.
+          </h3>
+
+        </div>
+
+        <a
+          class="btn-outline"
+          href="https://wa.me/51935925357?text=Hola%2C%20Culture%20%26%20Education.%20Quisiera%20informaci%C3%B3n%20sobre%20sus%20seminarios."
+          target="_blank"
+          rel="noopener noreferrer">
+
+          CONSULTAR SEMINARIOS
+          <i class="fa-brands fa-whatsapp"></i>
+
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================
+       PIE DE PÁGINA
+       HORIZONTAL
+  ====================================== -->
+
+  <footer class="footer" id="contacto">
+
+    <div class="footer-main">
+
+
+      <!-- LOGOTIPO -->
+
+      <div class="footer-brand-block">
+
+        <a
+          href="#inicio"
+          class="footer-brand"
+          aria-label="Volver al inicio">
+
+          <img
+            src="img/logo_culture_eucation.jpeg"
+            alt="Logotipo Culture & Education"
+            class="footer-logo-img">
+
+        </a>
+
+        <p>
+          EL OFICIO SE APRENDE.<br>
+          LA CULTURA SE LLEVA.
+        </p>
+
+      </div>
+
+
+      <!-- REDES SOCIALES -->
+
+      <div class="footer-social">
+
+        <h3>
+          SÍGUENOS EN NUESTRAS REDES
+        </h3>
+
+        <div class="social-icons">
+
+          <a
+            href="https://www.instagram.com/cultureeducation_?psln=MTFoMHU4MmNnanMxeg%3D%3D&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram">
+
+            <i class="fa-brands fa-instagram"></i>
+
+          </a>
+
+          <a
+            href="https://www.facebook.com/share/1BzB3jqk2V/?mibextid=wwXIfr"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook">
+
+            <i class="fa-brands fa-facebook-f"></i>
+
+          </a>
+
+          <a
+            href="https://www.tiktok.com/@cultureeducation_?_r=1&_t=ZS-9AgbMCWPw60"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="TikTok">
+
+            <i class="fa-brands fa-tiktok"></i>
+
+          </a>
+
+          <a
+            href="https://wa.me/51935925357"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp 1">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+          </a>
+
+          <a
+            href="https://wa.me/51931456697"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="WhatsApp 2">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- UBICACIÓN -->
+
+      <div class="footer-location">
+
+        <h3>
+          <i class="fa-solid fa-location-dot"></i>
+          NUESTRA UBICACIÓN
+        </h3>
+
+        <p>
+
+          <strong>CULTURE & EDUCATION</strong><br>
+
+          <span>
+            Av. República Suiza, Mazamari 12301
+          </span>
+
+        </p>
+
+        <a
+          href="https://maps.app.goo.gl/nibjrzN4KPN55JZ2A"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="location-button">
+
+          <i class="fa-solid fa-map-location-dot"></i>
+          CÓMO LLEGAR
+
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- COPYRIGHT -->
+
+    <div class="footer-bottom">
+
+      <span>
+        © <span id="year"></span> CULTURE & EDUCATION
+      </span>
+
+      <span>
+        ESCUELA PRESENCIAL DE BARBERÍA
+      </span>
+
+      <a href="#inicio">
+        VOLVER ARRIBA ↑
+      </a>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
